@@ -21,7 +21,6 @@ def submit():
     "tw": 4,
     "province": os.environ["province"],
     "city": os.environ["city"],
-    "district": os.environ["district"],
     "zgfxdq": 0, "mjry": 0, "csmjry": 0, "sfcxtz": 0 , "sfjcbh": 0, "sfcxzysx": 0, "sfyyjc": 0 , "jcjgqr": 0, "sfzx": 0, "sfjcwhry": 0, "sfjchbry": 0, "sfcyglq": 0, "sftjhb": 0, "sftjwh": 0, "sfjcjwry": 0, "szsqsfybl": 0, "sfsqhzjkk": 0, "sfygtjzzfj": 0, "ismoved": 0
   }
   data["area"] = " ".join((os.environ["province"], os.environ["city"], os.environ["district"])); data["address"] = data["area"].replace(" ", "")
