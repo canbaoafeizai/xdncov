@@ -1,0 +1,5 @@
+- Fork this repository.
+- Go to **Repository Setting > Secrets > New repository secret**, add **USERNAME**, **PASSWORD**, **PROVINCE**, **CITY** and **DISTRICT** secrets.
+- (Optional) Maybe you want to get notifications with WeChat, add the **KEY** secret after you get a valid **SCKEY** from http://sc.ftqq.com.
+- BTW, the scheduled tasks may not run on time due to the heavy server load.
+- Disclaimer: This repository is just for learning, I'm not assume any liability towards anyone's use of the program.
